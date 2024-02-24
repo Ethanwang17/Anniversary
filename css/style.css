@@ -1,0 +1,104 @@
+body {
+	font-family: "Dancing Script", cursive;
+	background-color: #ffe3df;
+}
+
+h1 {
+	text-align: center;
+	font-size: 102pt;
+	margin: 0;
+}
+
+.outline {
+	display: block;
+	margin-top: -150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.container {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+.column {
+	flex: 1;
+	margin: 0 10px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Shadows Into Light Two", cursive;
+	margin-top: 10px;
+	/* color: #000; */
+	font-size: 33pt;
+	font-weight: 100;
+}
+
+.stopwatch {
+	text-align: center;
+	font-family: "Shadows Into Light Two", cursive;
+	font-size: 33pt;
+	font-weight: 100;
+}
+
+.heart_path {
+	display: block;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	transform: rotate(180deg);
+
+}
+video::-webkit-media-controls-start-playback-button {
+	display: none;
+}
+
+.year_1 {
+	font-size: 50pt;
+	position: absolute;
+	top: 137%; /* Adjust as needed */
+	left: 23%; /* Adjust as needed */
+	transform: translate(-50%, -50%);
+	z-index: 1; /* Ensure the video appears above the heart path */
+}
+
+.year_2 {
+	font-family: "Shadows Into Light Two", cursive;
+	font-weight: 100;
+	font-size: 50pt;
+	position: absolute;
+	top: 213%; /* Adjust as needed */
+	left: 77%; /* Adjust as needed */
+	transform: translate(-50%, -50%);
+	z-index: 1; /* Ensure the video appears above the heart path */
+}
+
+.video_1 {
+	position: absolute;
+	top: 160%; /* Adjust as needed */
+	left: 23%; /* Adjust as needed */
+	transform: translate(-50%, -50%);
+	z-index: 1; /* Ensure the video appears above the heart path */
+}
+
+.video_2 {
+	position: absolute;
+	top: 240%; /* Adjust as needed */
+	left: 77%; /* Adjust as needed */
+	transform: translate(-50%, -50%);
+	z-index: 1; /* Ensure the video appears above the heart path */
+}
+
+p{
+	font-family: "Shadows Into Light Two", cursive;
+	font-weight: 100;
+	text-align: center;
+    font-size: 50pt;
+
+}
